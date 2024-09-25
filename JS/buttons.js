@@ -1,0 +1,9 @@
+document.getElementById('add-money-show-btn').addEventListener('click',function(){
+    showTheSectionById('add-money-form');
+})
+document.getElementById('cash-out-show-btn').addEventListener('click',function(){
+    showTheSectionById('cash-out-form');
+})
+document.getElementById('history-show-btn').addEventListener('click',function(){
+    showTheSectionById('history-form');
+})
